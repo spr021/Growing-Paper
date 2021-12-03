@@ -1,0 +1,30 @@
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 33px;
+    background-color: #f5f5f5;
+    padding: 2px 40px;
+    border-radius: 20px;
+    font-family: iranyekan;
+    position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  font-size: 17px;
+  right: 14px;
+  top: 9px;
+}
+
+.search {
+  all: unset;
+  background-color: #f5f5f5;
+    border: none;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 30px;
+    width: 180px;
+}

@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  box-shadow: 0 3px 8px 0 #a8a8a8;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 1010;
+}
+.first-menu {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  a {
+    padding: 0 8px;
+    cursor: pointer;
+    transition: line-height 0.3s ease;
+    line-height: 60px;
+    &:hover {
+      color: #00a2a4;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hid-button {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hid-element {
+    display: none !important;
+  }
+}
