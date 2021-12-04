@@ -4,6 +4,7 @@ import menu from "../../assets/menu.jpg"
 import search from "../../assets/search.jpg"
 import Button from "../button/button"
 import Search from "../search/search"
+import Link from "../../Link"
 
 function Header() {
   return (
@@ -14,9 +15,9 @@ function Header() {
         <div className="logo hid-element">
           <img height="60px" src={logo} alt="logo" />
         </div>
-        <a href="/#" className="hid-element">دسته بندی</a>
-        <a href="/#" className="hid-element">بی نهایت</a>
-        <a href="/#" className="hid-element">صوتی</a>
+        <Link href="/#" className="hid-element">دسته بندی</Link>
+        <Link href="/rooyesh" className="hid-element">رویش</Link>
+        <Link href="/#" className="hid-element">صوتی</Link>
         <Search className="hid-element" />
       </div>
       <div className="secound-menu">

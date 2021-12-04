@@ -3,23 +3,3 @@
   background-color: #fcfcfa;
 }
 
-.leaves-point {
-  border-radius: 5px !important;
-  height: 20px;
-}
-
-.leaves{
-  width: 100%;
-  height: 100px;
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-@media only screen and (max-width: 768px) {
-  .leaves {
-    justify-content: flex-end;
-  }
-}

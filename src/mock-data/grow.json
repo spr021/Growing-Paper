@@ -1,0 +1,25 @@
+{
+  "point": 5000,
+  "cards": [
+    {
+      "point": 300,
+      "img": "https://img.taaghche.com/logo/reward-sub-off-40.svg",
+      "deadline": "2020-03-25T03:45:00Z"
+    },
+    {
+      "point": 400,
+      "img": "https://img.taaghche.com/logo/reward-sub-off-30.svg",
+      "deadline": ""
+    },
+    {
+      "point": 250,
+      "img": "https://img.taaghche.com/logo/reward-book-off-40.svg",
+      "deadline": ""
+    },
+    {
+      "point": 600,
+      "img": "https://img.taaghche.com/logo/reward-book-off-30.svg",
+      "deadline": "2022-03-25T03:45:00Z"
+    }
+  ]
+}
