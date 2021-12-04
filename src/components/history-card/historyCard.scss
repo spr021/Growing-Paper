@@ -1,0 +1,45 @@
+.history-card {
+  min-height: 111.47px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 12px;
+    padding-left: 12px;
+    height: 80px;
+    margin-right: 2em;
+    width: 50%;
+    background-color: white;
+    .point {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 20%;
+    }
+  }
+  .green-card {
+    border-radius: 0 20px;
+    box-shadow: -2px 2px 5px -1px #68ad42;
+  }
+  .orange-card {
+    border-radius: 20px 0;
+    box-shadow: 2px 2px 5px -1px #ffa13d;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    height: 80px !important;
+    margin-right: 1em !important;
+    width: 75% !important;
+    justify-content: space-between !important;
+  }
+}

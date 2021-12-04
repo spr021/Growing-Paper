@@ -4,6 +4,8 @@ import Header from "./components/header/header"
 import Button from "./components/button/button"
 import Leaves from "./assets/Leaves.png"
 import date from "./mock-data/date.json"
+import HistoryList from "./components/history-list/historyList"
+import history from "./mock-data/history.json"
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           icon={Leaves}
         />
       </div>
+      <HistoryList data={history} />
     </div>
   )
 }
