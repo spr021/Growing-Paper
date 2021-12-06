@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Growing-Paper/static/css/main.acfb5a7b.chunk.css",
-    "main.js": "/Growing-Paper/static/js/main.5d74bc04.chunk.js",
-    "main.js.map": "/Growing-Paper/static/js/main.5d74bc04.chunk.js.map",
+    "main.js": "/Growing-Paper/static/js/main.d27c63e3.chunk.js",
+    "main.js.map": "/Growing-Paper/static/js/main.d27c63e3.chunk.js.map",
     "runtime-main.js": "/Growing-Paper/static/js/runtime-main.4c79aecd.js",
     "runtime-main.js.map": "/Growing-Paper/static/js/runtime-main.4c79aecd.js.map",
     "static/js/2.a363a381.chunk.js": "/Growing-Paper/static/js/2.a363a381.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.4c79aecd.js",
     "static/js/2.a363a381.chunk.js",
     "static/css/main.acfb5a7b.chunk.css",
-    "static/js/main.5d74bc04.chunk.js"
+    "static/js/main.d27c63e3.chunk.js"
   ]
 }
