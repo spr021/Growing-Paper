@@ -10,6 +10,7 @@
   }
   .disable-card {
     filter: grayscale(100%);
+    cursor: no-drop;
   }
   .card-img {
     width: 100%;

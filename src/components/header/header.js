@@ -13,7 +13,7 @@ function Header() {
         <Button className="hid-button" icon={menu} />
         <Button className="hid-button" icon={search} />
         <div className="logo hid-element">
-          <img height="60px" src={logo} alt="logo" />
+          <img height="60px" width="160px" src={logo} alt="logo" />
         </div>
         <Link href="/#" className="hid-element">دسته بندی</Link>
         <Link href="/rooyesh" className="hid-element">رویش</Link>
@@ -22,7 +22,7 @@ function Header() {
       </div>
       <div className="secound-menu">
       <div className="logo hid-button">
-          <img height="60px" src={logo} alt="logo" />
+          <img height="60px" width="160px" src={logo} alt="logo" />
         </div>
       </div>
       <div className="thrid-menu">

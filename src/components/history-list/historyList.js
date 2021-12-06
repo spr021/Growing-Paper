@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./historyList.scss"
-import vase from "../../assets/vase.png"
+import vase from "../../assets/vase.webp"
 import Stem from "../../assets/Stem.png"
 import HistoryCard from "../history-card/historyCard"
 
@@ -16,8 +16,8 @@ function HistoryList({ data }) {
   return (
     <div className="history">
       <div className="vase">
-        <img src={vase} alt="vase" width="80px" />
-        {data.history.slice(0, listSize).map((item) => <img key={item.date} src={Stem} width="80px" alt="Stem" />)}
+        <img src={vase} alt="vase" width="80px" height="93" />
+        {data.history.slice(0, listSize).map((item) => <img key={item.date} src={Stem} width="75px" height="105px" alt="Stem" />)}
       </div>
       <div className="list">{data.history.slice(0, listSize).map((item) => <HistoryCard key={item.date} data={item} />)}</div>
     </div>

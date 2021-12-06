@@ -10,7 +10,7 @@ function HistoryCard({ data }) {
         <div>{data.text}</div>
         <div className="point">
           <span>{data.point}</span>
-          <img alt="Leaves" width="30px" src={data.type === "increase" ? green : orange} />
+          <img alt="Leaves" width="30px" height="30px" src={data.type === "increase" ? green : orange} />
         </div>
       </div>
     </div>
