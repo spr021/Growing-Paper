@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Growing-Paper/static/css/main.acfb5a7b.chunk.css",
+    "main.js": "/Growing-Paper/static/js/main.5d74bc04.chunk.js",
+    "main.js.map": "/Growing-Paper/static/js/main.5d74bc04.chunk.js.map",
+    "runtime-main.js": "/Growing-Paper/static/js/runtime-main.4c79aecd.js",
+    "runtime-main.js.map": "/Growing-Paper/static/js/runtime-main.4c79aecd.js.map",
+    "static/js/2.a363a381.chunk.js": "/Growing-Paper/static/js/2.a363a381.chunk.js",
+    "static/js/2.a363a381.chunk.js.map": "/Growing-Paper/static/js/2.a363a381.chunk.js.map",
+    "static/js/3.774c1556.chunk.js": "/Growing-Paper/static/js/3.774c1556.chunk.js",
+    "static/js/3.774c1556.chunk.js.map": "/Growing-Paper/static/js/3.774c1556.chunk.js.map",
+    "index.html": "/Growing-Paper/index.html",
+    "static/css/main.acfb5a7b.chunk.css.map": "/Growing-Paper/static/css/main.acfb5a7b.chunk.css.map",
+    "static/js/2.a363a381.chunk.js.LICENSE.txt": "/Growing-Paper/static/js/2.a363a381.chunk.js.LICENSE.txt",
+    "static/media/Stem.db61102e.png": "/Growing-Paper/static/media/Stem.db61102e.png",
+    "static/media/index.css": "/Growing-Paper/static/media/Yekan.012789e6.ttf",
+    "static/media/coloredPaper.431f6c1c.png": "/Growing-Paper/static/media/coloredPaper.431f6c1c.png",
+    "static/media/green-Leaves.9680f922.png": "/Growing-Paper/static/media/green-Leaves.9680f922.png",
+    "static/media/orange-Leaves.0403586f.png": "/Growing-Paper/static/media/orange-Leaves.0403586f.png",
+    "static/media/vase.abcefe45.webp": "/Growing-Paper/static/media/vase.abcefe45.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c79aecd.js",
+    "static/js/2.a363a381.chunk.js",
+    "static/css/main.acfb5a7b.chunk.css",
+    "static/js/main.5d74bc04.chunk.js"
+  ]
+}
