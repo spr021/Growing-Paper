@@ -6,7 +6,7 @@ import date from "../../mock-data/date.json"
 import HistoryList from "../../components/history-list/historyList"
 import history from "../../mock-data/history.json"
 
-function History({point}) {
+function History({ point }) {
   return (
     <>
       <DateBar date={date} />

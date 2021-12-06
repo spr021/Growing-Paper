@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Route path="/">
+      <Route path="/Growing-Paper/">
         <History point={point} />
       </Route>
-      <Route path="/rooyesh">
+      <Route path="/Growing-Paper/rooyesh">
         <CardPage point={point} />
       </Route>
-      <Route path="/rooyesh/detile/">
+      <Route path="/Growing-Paper/rooyesh/detile/">
         <CardDetile point={point} setPoint={setPoint} />
       </Route>
     </div>

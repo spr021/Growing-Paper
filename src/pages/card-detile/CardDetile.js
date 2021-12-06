@@ -26,7 +26,7 @@ function CardDetile({ setPoint, point }) {
     <>
       <div className="detail">
         <div className="detail-header">
-          <Link className="back" href="/rooyesh">
+          <Link className="back" href="/Growing-Paper/rooyesh">
             &rarr; جزئیات جایزه
           </Link>
           <Button

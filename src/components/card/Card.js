@@ -35,7 +35,9 @@ function Card({ point, img, deadline, id }) {
           <span>{point}</span>
           <img width="30px" height="30px" src={leave} alt="leave" />
         </span>
-        <Link href={`/rooyesh/detile/?id=${id}`}>{clc ? "مشاهده و دریافت" : "مشاهده"}</Link>
+        <Link href={`/Growing-Paper/rooyesh/detile/?id=${id}`}>
+          {clc ? "مشاهده و دریافت" : "مشاهده"}
+        </Link>
       </div>
     </div>
   )

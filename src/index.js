@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import "./index.css"
 import App from "./App"
 import reportWebVitals from "./reportWebVitals"
+import * as serviceWorker from "./serviceWorker"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,3 +17,4 @@ document.fonts.ready
   .catch(() => (document.body.style.fontFamily = "sans-serif"))
 
 reportWebVitals()
+serviceWorker.register()

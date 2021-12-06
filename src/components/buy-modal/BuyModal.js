@@ -37,7 +37,7 @@ function BuyModal({ openModal, setOpenModal, content }) {
             />
             <Button className="code" text={code} />
           </div>
-          <Link href="/">
+          <Link href="/Growing-Paper/">
             <Button className="ok" text="متوجه شدم" />
           </Link>
         </div>

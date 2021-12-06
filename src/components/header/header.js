@@ -15,13 +15,19 @@ function Header() {
         <div className="logo hid-element">
           <img height="60px" width="160px" src={logo} alt="logo" />
         </div>
-        <Link href="/#" className="hid-element">دسته بندی</Link>
-        <Link href="/rooyesh" className="hid-element">رویش</Link>
-        <Link href="/#" className="hid-element">صوتی</Link>
+        <Link href="/Growing-Paper/#" className="hid-element">
+          دسته بندی
+        </Link>
+        <Link href="/Growing-Paper/rooyesh" className="hid-element">
+          رویش
+        </Link>
+        <Link href="/Growing-Paper/#" className="hid-element">
+          صوتی
+        </Link>
         <Search className="hid-element" />
       </div>
       <div className="secound-menu">
-      <div className="logo hid-button">
+        <div className="logo hid-button">
           <img height="60px" width="160px" src={logo} alt="logo" />
         </div>
       </div>
